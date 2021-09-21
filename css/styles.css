@@ -11407,8 +11407,14 @@ html {
 }
 
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/main-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11459,11 +11465,11 @@ footer.footer .social-link:hover {
   min-height: 30rem;
   position: relative;
   display: table;
-  width: 100%;
+  width: auto;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/main-1.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/mechanical_design_and_engineering_technology_program_page.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11493,7 +11499,7 @@ footer.footer .social-link:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(68, 130, 192, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11561,7 +11567,7 @@ footer.footer .social-link:hover {
 .carousel-item {
   height: 100vh;
   min-height: 350px;
-  background: no-repeat center center scroll;
+  background: no-repeat center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
